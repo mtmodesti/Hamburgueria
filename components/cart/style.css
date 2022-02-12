@@ -1,0 +1,67 @@
+
+
+.Header{
+    width: 348px;
+    height: 65px;
+    background-color: #27AE60;
+    border-radius: 5px 5px 0px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.Cart{
+    
+    right: 20px;
+    margin-top: 30px;
+    height: 300px;
+    overflow-x: scroll;
+    
+    
+}
+
+.spancart{
+    color: white;
+    text-align: left;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 10px;
+}
+
+.stock{
+    display: flex;
+    flex-direction: column;
+    width: 348px;
+    min-height: 158px;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+}
+.total {
+    width: 348px;
+    background-color: #27AE60;
+    
+}
+
+.totalprice{
+    color: white;
+    text-align: left;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 10px; 
+}
+
+.emptybag{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.additencar{
+    color: #828282;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 14px;
+}

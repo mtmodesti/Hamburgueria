@@ -1,0 +1,56 @@
+
+
+
+
+.App-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+.Cart{
+    margin-left: 5px;
+}
+
+.mainHeader{
+    margin-top: 10px;
+    height: 40px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+.mainHeader > img {
+    width: 70px;
+    height: 30px;
+}
+
+.mainSearch{
+    background-color: white;
+}
+
+.searchinput{
+    border: none;
+}
+
+.searchinput:focus{
+    outline: 0;
+}
+
+@media screen and (max-width: 820px){
+.mainHeader{
+    justify-content: center;
+}
+
+.mainSearch{
+    
+}
+
+.searchinput{
+    width: 100px;
+}
+
+}
