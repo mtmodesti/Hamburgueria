@@ -1,2 +1,3 @@
 # Hamburgueria - https://hamburgueriakenziemtm.vercel.app/
-Projeto de inicio de módulo em React
+
+In this project we use an API to train my very firsts components in react.
